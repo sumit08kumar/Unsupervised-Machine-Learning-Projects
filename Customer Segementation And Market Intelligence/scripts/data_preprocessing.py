@@ -38,4 +38,7 @@ data.info()
 print('\nFirst 5 rows after preprocessing:')
 print(data.head())
 
+# Save the preprocessed data
+data.to_csv('Online Retail Preprocessed.csv', index=False)
+print('\nPreprocessed data saved to Online Retail Preprocessed')
 
